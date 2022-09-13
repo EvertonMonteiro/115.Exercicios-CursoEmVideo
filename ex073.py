@@ -1,0 +1,13 @@
+print('Lista de times NBA Playoffs 2022!')
+print('=-'*20)
+nba = ('Warriors', 'Celtics', 'Heat', 'Mavericks', '76ers', 'Bucks', 'Grizzlies', 'Suns', 'Pelicans', 'Jazz',
+       'Clippers', 'Timberwolves', 'Raptors', 'Hawks', 'Bulls', 'Nets')
+print('=-'*20)
+print(f'Os 5 primeiros são: {nba[0:5]} ')
+print('=-'*20)
+print(f'Os 5 últimos são: {nba[-5:]}')
+print('=-'*20)
+print(f'Os times em ordem alfabética: {sorted(nba)}')
+print('=-'*20)
+print(f'O Grizzlies está na {nba.index("Grizzlies")+1}ª posição.')
+print('Acabou :) (Grizzlies eu te amo!)')

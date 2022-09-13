@@ -1,0 +1,11 @@
+nome = input('Digite o seu nome completo: ')
+nomeup = nome.upper()
+nomelo = nome.lower()
+leno = len(nome)-nome.count(' ')
+nomesp = nome.split()
+nomesp1 = nomesp[0]
+n1c = len(nomesp1)
+print(f'O seu nome em letras maíusculas é {nome.upper()}.')
+print(f'0 seu nome em letras minúsculas é {nomelo}.')
+print(f'O seu nome possui um total de {leno} letras.')
+print(f'O seu primeiro nome é {nomesp1} e ele possui {n1c} letras.')
